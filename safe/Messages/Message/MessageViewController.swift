@@ -13,7 +13,7 @@
 import UIKit
 import IGListKit
 
-protocol MessagesDisplayLogic: class {
+protocol MessagesDisplayLogic: AnyObject {
   func displayImage(viewModel: Messages.newImage.ViewModel)
 }
 
